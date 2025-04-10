@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="body">
+    <header class="navbar">
+        <div class="logo">
+            <a href="home.html">
+                <img src="/imagens/coding-devloper.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="/inicio/home.html">HOME</a></li>
+                <li><a href="/informacoes/saibamais.html">SAIBA MAIS</a></li>
+                <li><a href="/autenticacao/login.html">ÁREA DO ALUNO</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <h1 class="title">DEVLOPER CODE</h1>
+            <p class="welcome-text">Bem-vindo de<br> volta!</p>
+            <p class="sub-text">Acesse a sua conta</p>
+            <button class="login-btn">ENTRAR</button>
+            <a href="#" class="forgot-password">Esqueci minha senha</a>
+        </div>
+        <div class="right-section">
+            <h2 class="create-account">Crie sua conta</h2>
+            <p class="instructions">Preencha seus dados</p>
+            <form class="form">
+                <div class="input-container">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Nome" class="input-field">
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" placeholder="Email" class="input-field">
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-calendar-alt icon"></i>
+                    <input type="date" class="input-field" placeholder="Data de Aniversário">
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-venus-mars icon"></i>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="sexo" value="masculino" class="input-radio">
+                            <span class="radio-check"></span>
+                            <span class="radio-text">Masculino</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="sexo" value="feminino" class="input-radio">
+                            <span class="radio-check"></span>
+                            <span class="radio-text">Feminino</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="sexo" value="outro" class="input-radio">
+                            <span class="radio-check"></span>
+                            <span class="radio-text">Outro</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-lock icon"></i>
+                    <input type="password" placeholder="Senha" class="input-field">
+                </div>
+                <button type="submit" class="register-btn">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
